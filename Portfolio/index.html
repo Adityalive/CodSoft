@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditya Kumar | Portfolio</title>
+  <meta
+    name="description"
+    content="Aditya Kumar's portfolio website with projects, skills, resume, and contact details."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Bebas+Neue&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <div class="brand-mark">
+        <span class="brand-badge">AK</span>
+        <div>
+          <p class="eyebrow">Portfolio</p>
+          <p class="brand-name">Aditya Kumar</p>
+        </div>
+      </div>
+
+      <button class="menu-button" type="button" aria-controls="site-nav" aria-expanded="false">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Creative developer</p>
+          <h1>Aditya Kumar</h1>
+          <p class="hero-text">
+            I build clean, responsive websites with a strong visual identity, clear structure,
+            and smooth user experience.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#projects">View Projects</a>
+            <a class="button button-light" href="Aditya-Kumar-Resume.pdf" download>Download Resume</a>
+          </div>
+          <ul class="hero-stats" aria-label="Highlights">
+            <li>
+              <span>03</span>
+              <p>Featured projects</p>
+            </li>
+            <li>
+              <span>05+</span>
+              <p>Core skills</p>
+            </li>
+            <li>
+              <span>100%</span>
+              <p>Responsive design focus</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="portrait-card">
+            <div class="portrait-glow"></div>
+            <div class="portrait">
+              <span>Aditya</span>
+              <span>Kumar</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Simple, sharp, and built to feel polished.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card about-image" aria-hidden="true">
+            <div class="profile-ring">
+              <div class="profile-initials">AK</div>
+            </div>
+          </div>
+          <div class="about-card">
+            <p>
+              I am Aditya Kumar, a web development enthusiast who enjoys turning ideas into
+              modern, usable interfaces. My focus is on HTML, CSS, JavaScript, and building
+              layouts that look intentional on every screen size.
+            </p>
+            <p>
+              I like clean typography, strong hierarchy, and designs that do not waste space.
+              This portfolio follows that approach with a bold monochrome style inspired by
+              editorial product pages.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools and strengths I work with.</h2>
+        </div>
+        <div class="chip-grid">
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Responsive Design</span>
+          <span class="chip">UI Layout</span>
+          <span class="chip">Git & GitHub</span>
+          <span class="chip">Problem Solving</span>
+          <span class="chip">Clean Code</span>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <img class="project-media" src="project-1.svg" alt="Abstract preview for the Portfolio Landing Page project" />
+            <div class="project-body">
+              <p class="project-index">01</p>
+              <h3>Portfolio Landing Page</h3>
+              <p>A bold personal portfolio layout with a strong hero section and clear content flow.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-media" src="project-2.svg" alt="Abstract preview for the Task Manager UI project" />
+            <div class="project-body">
+              <p class="project-index">02</p>
+              <h3>Task Manager UI</h3>
+              <p>A clean dashboard concept for organizing tasks, priorities, and daily progress.</p>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="project-media" src="project-3.svg" alt="Abstract preview for the Product Showcase project" />
+            <div class="project-body">
+              <p class="project-index">03</p>
+              <h3>Product Showcase</h3>
+              <p>A minimal commerce-style showcase with flat cards and strong product emphasis.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section resume-section" id="resume">
+        <div class="section-heading">
+          <p class="eyebrow">Resume</p>
+          <h2>Download a quick overview.</h2>
+        </div>
+        <div class="resume-card">
+          <p>
+            You can download my resume as a PDF and use it for a quick summary of my background,
+            skills, and project interests.
+          </p>
+          <a class="button button-dark" href="Aditya-Kumar-Resume.pdf" download>
+            Download PDF Resume
+          </a>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Let’s build something useful.</h2>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:adityakumar@example.com">
+            <span>Email</span>
+            <strong>adityakumar@example.com</strong>
+          </a>
+          <a class="contact-card" href="tel:+910000000000">
+            <span>Phone</span>
+            <strong>+91 00000 00000</strong>
+          </a>
+          <div class="contact-card">
+            <span>Location</span>
+            <strong>India</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Aditya Kumar. Built with HTML, CSS, and a sharp eye for structure.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
